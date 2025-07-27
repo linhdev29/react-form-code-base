@@ -1,0 +1,65 @@
+# 📝 Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 📦 Dependency folders
+node_modules/
+
+# 🏗️ Build output
+dist/
+dist-ssr/
+*.local
+
+# 🔐 Environment variables
+.env
+.env.*.local
+
+# 💻 Editor/IDE settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 🧪 Test coverage
+coverage/
+
+# 🦊 Husky git hooks (generated files)
+.husky/_/
+
+# 🔧 Lint-staged cache
+.lintstagedrc
+.lintstagedrc.*
+
+# 🔐 Firebase deployment configs (optional, nếu bạn đã có file firebase.json và muốn commit, giữ lại)
+.firebase/
+.firebaserc
+.firebase-debug.log
+
+# ⚡ Vite cache
+.vite/
+
+# 📦 Yarn modern (v3+) offline cache
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.pnp.*
+.pnpjs/
+
+# 💅 Prettier
+.prettierignore
+
+# 📂 Output from React Toastify if saved to disk (optional)
+toastify.log
+
+# ⛔ Lockfile (keep yarn v1)
+# yarn.lock
